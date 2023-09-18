@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+/* nav bar */
+#logo {
+  width: 70px;
+  height: auto;
+  margin: 0 20px;
+}
+
+.navbar {
+  background-image: url(../multimedia/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* nav bar end */
+/*  main */
+.texto-main {
+  font-size: 20px;
+}
+
+.fondo {
+  background-image: url(../multimedia/pexels-jonathan-borba-2983098.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.fondo-texto {
+  border-radius: 20px;
+  background-color: rgba(240, 248, 255, 0.187);
+}
+
+/* main end */
+/* footer */
+.redes {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-image: url(../multimedia/twitter-icon-png-12.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.redes-img:hover {
+  background-color: rgba(255, 255, 255, 0.46);
+}
+
+.redes-img {
+  width: 50px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+footer {
+  background-image: url(../multimedia/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 10vh;
+  border-top: 1px solid #000;
+}
+
+/* footer end */
+@media screen and (min-width: 720px) {
+  .footer-horarios {
+    font-size: 20px;
+  }
+  .footer-seguinos {
+    font-size: 24px;
+  }
+  .titulo-main {
+    font-size: 30px;
+  }
+  .texto-main {
+    font-size: 25px;
+  }
+  .titulo-main-menu {
+    font-size: 33px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .burger {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-seguinos {
+    position: relative;
+    left: 30px;
+  }
+  .nav-li {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #carousel {
+    display: flex;
+    align-items: center;
+  }
+  .footer-seguinos {
+    position: relative;
+    left: 100px;
+  }
+}
+.titulo-burger {
+  font-size: 20px;
+}
+
+.titulo-main-menu {
+  font-size: 25px;
+}
+
+.burger:hover {
+  transform: scale(1.1);
+}
+
+/* media querys */
+@media screen and (min-width: 400px) {
+  .titulo-burger {
+    font-size: 23px;
+  }
+  .titulo-main-menu {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .titulo-main-menu {
+    font-size: 33px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .burger {
+    margin-right: 50px;
+  }
+}
+iframe {
+  height: 80%;
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

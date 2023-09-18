@@ -1,0 +1,36 @@
+.titulo-burger {
+    font-size: 20px;
+}
+
+.titulo-main-menu {
+    font-size: 25px;
+}
+
+.burger:hover {
+    transform: scale(1.1);
+}
+
+/* media querys */
+@media screen and (min-width: 400px) {
+    .titulo-burger {
+        font-size: 23px;
+    }
+
+    .titulo-main-menu {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .titulo-main-menu {
+        font-size: 33px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .burger {
+        margin-right: 50px;
+    }
+
+
+}
