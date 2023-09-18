@@ -150,4 +150,16 @@ iframe {
   border-radius: 7px;
 }
 
+.cantidad {
+  width: 35px;
+}
+
+.fondo-pedidos {
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+.btn_pedido {
+  width: 70px;
+}
+
 /*# sourceMappingURL=style.css.map */
