@@ -1,5 +1,11 @@
 iframe {
-    height: 80%;
+    height: 300px;
     width: 75%;
     margin-bottom: 10px;
+}
+
+.fondo-iframes {
+    background-color: $fondo;
+    padding: 7px 10px;
+    border-radius: 7px;
 }
