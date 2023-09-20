@@ -152,6 +152,10 @@ iframe {
 
 .cantidad {
   width: 35px;
+  background-color: black;
+  color: white;
+  border: 1px solid rgba(246, 246, 246, 0.317);
+  border-radius: 5px;
 }
 
 .fondo-pedidos {
@@ -160,6 +164,31 @@ iframe {
 
 .btn_pedido {
   width: 70px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.main_pedidos {
+  min-height: 80vh;
+}
+
+.select_pedido {
+  width: 150px;
+  margin: 20px 0px 20px 0;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid rgba(246, 246, 246, 0.317);
+}
+
+.datos_pedido {
+  width: 150px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: 1px solid rgba(246, 246, 246, 0.317);
 }
 
 /*# sourceMappingURL=style.css.map */

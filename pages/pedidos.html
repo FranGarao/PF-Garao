@@ -62,15 +62,13 @@
             </div>
         </div>
     </header>
-    <!-- //navbar end// -->
     <main class="conteiner-fluid fondo text-white">
-        <div class="row w-100 mx-0 ">
-
-            <h3>INGRESA TU PEDIDO ACA</h3>
-            <form action="" class="d-flex flex-column">
+        <h3 class="text-center mb-3">INGRESA TU PEDIDO ACA</h3>
+        <form class="row w-100">
+            <div class="col-sm-12 d-flex flex-column align-items-center p-0 w-100">
                 <div>
-                    <select name="pedido" id="pedido">
-                        <option selected disabled value="0">ELEGI TU HAMBURGUESA</option>
+                    <select class="select_pedido" name="pedido" id="pedido">
+                        <option selected disabled value="0"> HAMBURGUESAS</option>
                         <option value="1">BACON BURGER</option>
                         <option value="2">TRIPLE CHEDDAR</option>
                         <option value="3">SANDWICH BURGER</option>
@@ -79,69 +77,67 @@
                         <option value="6">VEGGIE FEST</option>
                     </select>
                     <label for="cant-bg">CANTIDAD</label>
-                    <input class="cantidad" type="number" placeholder="0" name="cant-bg">
+                    <input required max="10" min="0" class="cantidad" type="number" name="cant-bg">
                 </div>
                 <div>
-                    <select name="pedido" required id="pedido">
-                        <option selected disabled value="0">ELEGI TU GUARNICION</option>
+                    <select class="select_pedido" name="pedido" required id="pedido">
+                        <option selected disabled value="0"> GUARNICIONES</option>
                         <option value="1">PAPAS CLASICAS</option>
                         <option value="2">PAPAS CON CHEDDAR</option>
                         <option value="3">NACHOS</option>
-                        <option value="4">NO QUIERO GUARNICION</option>
+                        <option value="4">SIN GUARNICION</option>
                     </select>
                     <label for="cant-bg">CANTIDAD</label>
-                    <input class="cantidad" type="number" placeholder="0" name="cant-bg">
+                    <input required max="10" min="0" class="cantidad" type="number" name="cant-bg">
                 </div>
                 <div>
-                    <select name="pedido" id="pedido">
-                        <option selected disabled value="0">ELEGI TU BEBIDA</option>
+                    <select class="select_pedido" name="pedido" id="pedido">
+                        <option selected disabled value="0">BEBIDAS</option>
                         <option value="1">COCA-COLA 500cc</option>
                         <option value="2">SPRITE 500cc</option>
                         <option value="3">FANTA 500cc</option>
                         <option value="4">AGUA 500cc</option>
-                        <option value="5">NO QUIERO BEBIDA</option>
+                        <option value="5">SIN BEBIDA</option>
                     </select>
                     <label for="cant-b">CANTIDAD</label>
-                    <input class="cantidad" type="number" placeholder="0" name="cant-b">
+                    <input required max="10" min="0" class="cantidad" type="number" name="cant-b">
 
                 </div>
-                <div>
+
+            </div>
+
+            <div class="col-sm-12 d-flex flex-column align-items-center mt-4 p-0">
+
+                <h3>POR FAVOR COMPLETA CON TUS DATOS</h3>
+                <input class="datos_pedido" required placeholder="NOMBRE" type="text">
+                <input class="datos_pedido" required type="text" placeholder="APELLIDO">
+                <input class="datos_pedido" required placeholder="EMAIL" type="email">
+                <input class="datos_pedido" required placeholder="DIRECCION" type="text">
+
+                <div class="mt-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                            checked>
+                        <label class="form-check-label mb-2" for="flexRadioDefault1">
+                            TAKE AWAY
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            DELIVERY
+                        </label>
+                    </div>
+                </div>
+
+                <div class="accion-pedido d-flex align-items-center p-0">
                     <input class="btn_pedido" value="ENVIAR" type="submit">
                     <input class="btn_pedido" value="BORRAR" type="reset">
                 </div>
-            </form>
-        </div>
 
-
+            </div>
+        </form>
     </main>
-    <!-- footer start -->
-    <footer class="container-fluid p-0 d-inline-block border-top border-white">
-        <div class="row w-100 mx-0">
-            <div
-                class="col-sm-12 col-md-12 col-lg-12 col-xl-5 col-xxl-5 text-white d-flex justify-content-center align-items-center p-2 text-center">
-                <p class="footer-horarios fw-bold my-0">HORARIOS DE ATENCION: LUNES A DOMINGOS DE 11:00 A 23:00</p>
-            </div>
-            <div
-                class=" col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 p-2 d-flex d-row justify-content-center mx-0 text-center">
-                <h5 class="footer-seguinos text-white my-auto mx-auto">¡SEGUINOS EN NUESTRAS REDES!</h5>
-            </div>
-            <div
-                class="col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3 d-flex justify-content-center align-items-center p-3">
-
-
-                <a target="_blank" href="https://www.twitter.com"> <img
-                        class="redes-img border border-dark rounded-circle p-1 me-4 img-fluid "
-                        src="../multimedia/twitter-icon-png-12.png" alt="twitter"></a>
-                <a target="_blank" href="https://www.facebook.com"> <img
-                        class="redes-img border border-dark rounded-circle me-4 img-fluid "
-                        src="../multimedia/facebook-4096-black.png" alt="facebook"></a>
-                <a target="_blank" href="https://www.instagram.com"> <img
-                        class="redes-img border rounded-circle border-dark img-fluid  "
-                        src="../multimedia/instagram.png" alt="instagram"></a>
-            </div>
-        </div>
-    </footer>
-    <!-- footer end -->
 </body>
 
 </html>
