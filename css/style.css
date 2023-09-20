@@ -167,10 +167,23 @@ iframe {
   background-color: black;
   color: rgb(255, 255, 255);
   border-radius: 5px;
+  margin: 0px 5px;
+  border: 1px solid rgba(246, 246, 246, 0.317);
 }
 
-.main_pedidos {
+.main_pedido h3 {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.452);
+  padding: 7px 10px;
+  border-radius: 7px;
+}
+
+.main_pedido {
   min-height: 80vh;
+}
+
+.accion_pedido {
+  margin-top: 30px;
 }
 
 .select_pedido {
@@ -183,12 +196,37 @@ iframe {
 }
 
 .datos_pedido {
-  width: 150px;
+  width: 200px;
   margin: 10px 0;
   border-radius: 5px;
   background-color: black;
   color: white;
   border: 1px solid rgba(246, 246, 246, 0.317);
+}
+
+.btn_check {
+  font-size: 17px;
+}
+
+@media screen and (min-width: 400px) {
+  .main_pedido h3 {
+    font-size: 26px;
+  }
+  .datos_pedido {
+    width: 250px;
+  }
+  .select_pedido {
+    width: 180px;
+    margin-right: 20px;
+  }
+  .btn_check {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .main_pedido h3 {
+    font-size: 28px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
