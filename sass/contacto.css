@@ -1,0 +1,10 @@
+#desa {
+  color: black;
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+  #desa {
+    display: inline-block;
+  }
+}/*# sourceMappingURL=contacto.css.map */

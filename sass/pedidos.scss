@@ -152,3 +152,36 @@ $borde_select: rgba(246, 246, 246, 0.317);
         }
     }
 }
+
+@media screen and (min-width: 1100px) {
+    #desaparece {
+        h3 {
+            width: 500px;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+
+    .datos_pedido {
+        height: 36px;
+        width: 260px;
+    }
+
+    .select_pedido {
+        height: 33px;
+        width: 200px;
+
+    }
+
+    .btn_check {
+        font-size: 22px;
+    }
+
+    .btn_pedido {
+        width: 82px;
+        height: 30px;
+        font-size: 19px;
+    }
+}
