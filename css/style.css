@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 1;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
 }
@@ -171,11 +171,15 @@ iframe {
   border: 1px solid rgba(246, 246, 246, 0.317);
 }
 
-.main_pedido h3 {
+.main_pedido h2 {
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.452);
   padding: 7px 10px;
   border-radius: 7px;
+}
+
+#desaparece {
+  display: none;
 }
 
 .main_pedido {
@@ -196,6 +200,7 @@ iframe {
 }
 
 .datos_pedido {
+  padding: 5px;
   width: 200px;
   margin: 10px 0;
   border-radius: 5px;
@@ -209,23 +214,75 @@ iframe {
 }
 
 @media screen and (min-width: 400px) {
-  .main_pedido h3 {
+  .main_pedido h2 {
     font-size: 26px;
   }
   .datos_pedido {
+    height: 30px;
     width: 250px;
   }
   .select_pedido {
+    height: 30px;
     width: 180px;
     margin-right: 20px;
   }
   .btn_check {
     font-size: 19px;
   }
+  .btn_pedido {
+    width: 75px;
+    height: 25px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 565px) {
+  .datos_pedido {
+    height: 33px;
+    width: 250px;
+  }
+  .select_pedido {
+    height: 30px;
+    width: 180px;
+    margin-right: 20px;
+  }
+  .btn_check {
+    font-size: 20px;
+  }
+  .btn_pedido {
+    width: 77px;
+    height: 27px;
+    font-size: 17px;
+  }
 }
 @media screen and (min-width: 720px) {
-  .main_pedido h3 {
+  .main_pedido h2 {
     font-size: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #margin_pedidos {
+    margin-top: 40px;
+  }
+  #desaparece {
+    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+  }
+  #desaparece h3 {
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+#desa {
+  color: black;
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+  #desa {
+    display: inline-block;
   }
 }
 

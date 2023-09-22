@@ -65,8 +65,9 @@
     <main class="conteiner-fluid fondo text-white main_pedido">
 
         <form class="row w-100 mx-0">
-            <div class="col-sm-12 col-md-6 d-flex flex-column align-items-center py-0 px-2 ">
-                <h3 class="pt-4">INGRESA TU PEDIDO</h3>
+            <div id="margin_pedidos"
+                class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column align-items-center py-0 px-2  ">
+                <h2 class="pt-2">INGRESA TU PEDIDO</h2>
                 <div>
                     <select class="select_pedido" name="pedido" id="pedido">
                         <option selected disabled value="0"> HAMBURGUESAS</option>
@@ -107,19 +108,18 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-6 d-flex flex-column align-items-center mt-4 p-0">
-
-
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column align-items-center mt-4 p-0">
                 <div class="d-flex flex-column align-items-center  w-100 my-3">
-                    <h3 class="mb-3">COMPLETA CON TUS DATOS</h3>
+                    <h2 class="mb-3">COMPLETA CON TUS DATOS</h2>
                     <input class="datos_pedido" required placeholder="NOMBRE" type="text">
                     <input class="datos_pedido" required type="text" placeholder="APELLIDO">
                     <input class="datos_pedido" required placeholder="EMAIL" type="email">
                     <input class="datos_pedido" required placeholder="DIRECCION" type="text">
                 </div>
-
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column align-items-center mt-4 p-0">
                 <div class="d-flex flex-column align-items-center mt-3 w-100">
-                    <h3>ELEGI UNA OPCION</h3>
+                    <h2>ELEGI UNA OPCION</h2>
                     <div class="mt-3">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
@@ -141,8 +141,17 @@
                     <input class="btn_pedido" value="BORRAR" type="reset">
                 </div>
             </div>
+            <div id="desaparece" class="col-sm-0 col-md-6 col-xl-6 col-xxl-6">
+                <h3>SI NO SABES QUE PEDIR, TE INVITAMOS A VER <a href="../pages/menu.html">NUESTRO MENU</a>. </h3>
+                <h3>ASI COMO
+                    TAMBIEN PODES VER <a href="../pages/sucursales.html">NUESTRAS SUCURSALES</a> PARA SABER DONDE
+                    ESTAMOS
+                    UBICADOS.</h3>
+            </div>
         </form>
+
     </main>
+
     <!-- footer start -->
     <footer class="container-fluid p-0 d-inline-block border-top border-white">
         <div class="row w-100 mx-0">
@@ -152,7 +161,7 @@
             </div>
             <div
                 class=" col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 p-2 d-flex d-row justify-content-center mx-0 text-center">
-                <h5 class="footer-seguinos text-white my-auto mx-auto">¡SEGUINOS EN NUESTRAS REDES!</h5>
+                <h4 class="footer-seguinos text-white my-auto mx-auto">¡SEGUINOS EN NUESTRAS REDES!</h4>
             </div>
             <div
                 class="col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3 d-flex justify-content-center align-items-center p-3">
