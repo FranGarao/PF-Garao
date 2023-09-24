@@ -34,14 +34,19 @@
 
     .titulo_contacto {
         font-size: 19px;
-        background-color: $fondo;
-        border-radius: 4px;
-        padding: 7px;
+        margin-left: 5px;
 
     }
 
+    #sec_contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     #contactanos {
-        height: 120px;
+        height: 150px;
         display: flex;
         flex-direction: column;
         background-color: $fondo;
@@ -56,7 +61,7 @@
             flex-direction: row;
 
             p {
-                margin: 5px;
+                margin: 2px 5px;
             }
         }
     }
@@ -81,6 +86,10 @@
     margin: 0px 5px;
     border: 1px solid $borde_select;
 
+}
+
+#desaparece_contacto {
+    display: none;
 }
 
 // media querys
@@ -125,7 +134,7 @@
 
         #textarea {
             width: 340px;
-            height: 110px;
+            height: 120px;
         }
 
 
@@ -135,7 +144,7 @@
 
 
         #contactanos {
-            height: 150px;
+            height: 180px;
             width: 320px;
             padding-left: 20px;
             display: flex;
@@ -204,7 +213,7 @@
 
 
         #contactanos {
-            height: 150px;
+            height: 190px;
             width: 320px;
             padding-left: 20px;
             display: flex;
@@ -224,4 +233,78 @@
             }
         }
     }
+}
+
+@media screen and (min-width:768px) {
+    #desaparece_contacto {
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+        width: 340px;
+        height: 400px;
+
+
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid $borde_select;
+        background-color: $fondo;
+    }
+
+    .main_contacto {
+        #contactanos {
+
+            height: 200px;
+            width: 350px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+        }
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .main_contacto {
+        form {
+            #div_consulta {
+                margin-top: 40px;
+            }
+        }
+
+        #contactanos {
+            height: 200px;
+            width: 350px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+        }
+    }
+
+    #sec_contacto {
+
+        #desaparece_contacto {
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            width: 450px;
+            height: 400px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid $borde_select;
+            background-color: $fondo;
+
+
+            p {
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
 }
