@@ -1,4 +1,6 @@
 $fondo: rgba(0, 0, 0, 0.452);
+$borde_select: rgba(246, 246, 246, 0.317);
+$fondo_form: rgba(0, 0, 0, 0.549);
 
 * {
     margin: 0;
@@ -59,8 +61,8 @@ $fondo: rgba(0, 0, 0, 0.452);
     background-color: rgba(255, 255, 255, 0.46);
 }
 
-.redes-img {
 
+.redes-img {
     width: 50px;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -72,6 +74,20 @@ footer {
     background-size: cover;
     min-height: 10vh;
     border-top: 1px solid #000;
+}
+
+#link_inicio {
+    position: fixed;
+    top: 78%;
+    left: 93%;
+    background-color: beige;
+    border-radius: 50px;
+    padding: 0 5px;
+
+    img {
+        width: 60px;
+        height: auto;
+    }
 }
 
 /* footer end */

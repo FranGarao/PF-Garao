@@ -26,11 +26,12 @@
                     <div class="container-fluid">
                         <div
                             class="d-flex flex-column-reverse flex-md-row-reverse justify-content-center align-items-center">
-                            <a class="navbar-brand m-0" href="#">
+                            <a class="navbar-brand m-0" href="../index.html">
                                 <h1 class="m-0 fw-bold">BURGER MAKERS</h1>
                             </a>
                             <img id="logo" class="img-fluid" src="../multimedia/logo.png" alt="Logo"
                                 class="d-inline-block align-text-top">
+
                         </div>
 
                         <button id="btn-burger" class="navbar-toggler border border-white" type="button"
@@ -47,13 +48,13 @@
                                     <a class="nav-link " href="../pages/menu.html">MENU</a>
                                 </li>
                                 <li class="nav-item mx-lg-1 mx-xl-3 nav-li">
-                                    <a class="nav-link active" href="../pages/pedidos.html">PEDIR</a>
+                                    <a class="nav-link " href="../pages/pedidos.html">PEDIR</a>
                                 </li>
                                 <li class="nav-item mx-lg-1 mx-xl-3 nav-li">
                                     <a class="nav-link " href="../pages/sucursales.html">SUCURSALES</a>
                                 </li>
                                 <li class="nav-item mx-lg-1 mx-xl-3 nav-li">
-                                    <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                                    <a class="nav-link active" href="../pages/contacto.html">CONTACTO</a>
                                 </li>
                             </ul>
                         </div>
@@ -62,18 +63,85 @@
             </div>
         </div>
     </header>
-    <main>
-        <div id="desa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam similique debitis, maiores
-            facere dolorum qui iusto veniam corrupti incidunt totam quae, numquam placeat cum consequuntur fuga ea illo
-            cupiditate.</div>
+    <main class="container-fluid fondo text-white main_contacto ">
+        <div class="row w-100 ">
+            <form action=""
+                class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6  d-flex flex-column align-items-center">
+                <h2 class="text-center mt-3">INGRESA TUS DATOS</h2>
+                <div class="div_contact"> <label class=" label_contact" for="nombre">NOMBRE</label>
+                    <input placeholder="NOMBRE" required class="input_contact" name="nombre" type="text">
+                </div>
+                <div class="div_contact"> <label class=" label_contact" for="apellido">APELLIDO</label>
+                    <input placeholder="APELLIDO" required class="input_contact" name="apellido" type="text">
+                </div>
+                <div class="div_contact"><label class=" label_contact" for="email">EMAIL</label>
+                    <input placeholder="EMAIL" required class="input_contact" name="email" type="email">
+                </div>
+                <div class="div_cosulta mt-4 d-flex flex-column align-items-center"> <label class="mb-3 label_contact"
+                        for="consulta">DEJANOS TU
+                        COMENTARIO O
+                        CONSULTA:</label>
+                    <textarea id="textarea" class="mb-3" required name="consulta" cols="30" minlength="40"
+                        rows=""></textarea>
+                </div>
+                <div>
+                    <input class="me-3 btn_contacto" type="submit" value="ENVIAR">
+                    <input class="btn_contacto" type="reset" value="BORRAR">
+                </div>
+            </form>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-items-center d-flex flex-column mt-5">
+                <h3 class="mt-4 mb-3 titulo_contacto">CONTACTO</h3>
+                <div id="contactanos">
+                    <div class="contactanos_div">
+                        <p>TELEFONO: </p>
+                        <p>4451-2360</p>
+                    </div>
+                    <div class="contactanos_div">
+                        <p>EMAIL:</p>
+                        <p>BURGERMAKERS@GMAIL.COM</p>
+                    </div>
+                    <div class="contactanos_div">
+                        <p>WHATSAPP: </p>
+                        <p>11-9988-7766 O
+                            <a target="_blank" href="https://web.whatsapp.com">CLICK AQUI</a>
+                        </p>
+                    </div>
 
+
+
+
+                </div>
+            </div>
+        </div>
     </main>
+    <!-- footer start -->
+    <footer class="container-fluid p-0 d-inline-block border-top border-white">
+        <div class="row w-100 mx-0">
+            <div
+                class="col-sm-12 col-md-12 col-lg-12 col-xl-5 col-xxl-5 text-white d-flex justify-content-center align-items-center p-2 text-center">
+                <p class="footer-horarios fw-bold my-0">HORARIOS DE ATENCION: LUNES A DOMINGOS DE 11:00 A 23:00</p>
+            </div>
+            <div
+                class=" col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 p-2 d-flex d-row justify-content-center mx-0 text-center">
+                <h4 class="footer-seguinos text-white my-auto mx-auto">¡SEGUINOS EN NUESTRAS REDES!</h4>
+            </div>
+            <div
+                class="col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3 d-flex justify-content-center align-items-center p-3">
 
-    <div id="ari">holaaaaa</div>
-    <div id="ariel">chau</div>
 
-    <div id="aricito">holaaaaa</div>
-
+                <a target="_blank" href="https://www.twitter.com"> <img
+                        class="redes-img border border-dark rounded-circle p-1 me-4 img-fluid "
+                        src="../multimedia/twitter-icon-png-12.png" alt="twitter"></a>
+                <a target="_blank" href="https://www.facebook.com"> <img
+                        class="redes-img border border-dark rounded-circle me-4 img-fluid "
+                        src="../multimedia/facebook-4096-black.png" alt="facebook"></a>
+                <a target="_blank" href="https://www.instagram.com"> <img
+                        class="redes-img border rounded-circle border-dark img-fluid  "
+                        src="../multimedia/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
 </body>
 
 </html>

@@ -1,9 +1,6 @@
-$borde_select: rgba(246, 246, 246, 0.317);
-
-
 .cantidad {
     width: 35px;
-    background-color: black;
+    background-color: $fondo_form;
     color: white;
     border: 1px solid $borde_select;
     border-radius: 5px;
@@ -15,7 +12,7 @@ $borde_select: rgba(246, 246, 246, 0.317);
 
 .btn_pedido {
     width: 70px;
-    background-color: black;
+    background-color: $fondo;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     margin: 0px 5px;
@@ -48,7 +45,7 @@ $borde_select: rgba(246, 246, 246, 0.317);
     width: 150px;
     margin: 20px 0px 20px 0;
     border-radius: 5px;
-    background-color: rgb(0, 0, 0);
+    background-color: $fondo_form;
     color: white;
     border: 1px solid $borde_select;
 }
@@ -58,7 +55,7 @@ $borde_select: rgba(246, 246, 246, 0.317);
     width: 200px;
     margin: 10px 0;
     border-radius: 5px;
-    background-color: black;
+    background-color: $fondo_form;
     color: white;
     border: 1px solid $borde_select;
 }
