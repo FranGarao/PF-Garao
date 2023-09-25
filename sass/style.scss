@@ -10,10 +10,15 @@ $fondo_form: rgba(0, 0, 0, 0.549);
 }
 
 /* nav bar */
+
+@mixin logo ($width, $height, $margin) {
+    width: $width;
+    height: $height;
+    margin: $margin;
+}
+
 #logo {
-    width: 70px;
-    height: auto;
-    margin: 0 20px;
+    @include logo (70px, auto, 0 20px)
 }
 
 .navbar {
@@ -24,6 +29,7 @@ $fondo_form: rgba(0, 0, 0, 0.549);
 }
 
 /* nav bar end */
+
 
 /*  main */
 .texto-main {
@@ -135,7 +141,6 @@ footer {
 
     .nav-li {
         font-size: 22px;
-
     }
 }
 

@@ -163,12 +163,17 @@ iframe {
   border-radius: 7px;
 }
 
-.cantidad {
+.cantidad, .cantidad_label {
   width: 35px;
   background-color: rgba(0, 0, 0, 0.549);
   color: white;
   border: 1px solid rgba(246, 246, 246, 0.317);
   border-radius: 5px;
+}
+
+.cantidad_label {
+  width: 80px;
+  text-align: center;
 }
 
 .fondo-pedidos {
@@ -389,9 +394,6 @@ iframe {
 }
 
 @media screen and (min-width: 480px) {
-  .label_contact {
-    font-size: 20px;
-  }
   .main_contacto {
     min-height: 80vh;
     display: flex;

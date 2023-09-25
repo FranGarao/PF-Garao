@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUCURSALES</title>
+    <meta name="description" content="REALIZA TU PEDIDO EN NUESTRA HAMBURGUESERIA - BURGERMAKERS">
+    <meta name="keywords"
+        content="pedir hamburguesas, papas fritas, hamburguesa, hamburgueseria gba, hamburgueseria capital, take away, delivery">
+    <title>PEDIR</title>
     <link rel="stylesheet" href="../css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Noto+Sans+Multani&family=Oswald:wght@500&display=swap"
@@ -78,8 +81,8 @@
                         <option value="5">VEGAN</option>
                         <option value="6">VEGGIE FEST</option>
                     </select>
-                    <label for="cant-bg">CANTIDAD</label>
-                    <input required max="10" min="0" class="cantidad" type="number" name="cant-bg">
+                    <label class="cantidad_label" for="cant-burger">CANTIDAD</label>
+                    <input required max="10" min="0" class="cantidad" type="number" name="cant-burger">
                 </div>
                 <div>
                     <select class="select_pedido" name="pedido" required id="pedido">
@@ -89,8 +92,8 @@
                         <option value="3">NACHOS</option>
                         <option value="4">SIN GUARNICION</option>
                     </select>
-                    <label for="cant-bg">CANTIDAD</label>
-                    <input required max="10" min="0" class="cantidad" type="number" name="cant-bg">
+                    <label class="cantidad_label" for="cant-papas">CANTIDAD</label>
+                    <input required max="10" min="0" class="cantidad" type="number" name="cant-papas">
                 </div>
                 <div>
                     <select class="select_pedido" name="pedido" id="pedido">
@@ -101,8 +104,8 @@
                         <option value="4">AGUA 500cc</option>
                         <option value="5">SIN BEBIDA</option>
                     </select>
-                    <label for="cant-b">CANTIDAD</label>
-                    <input required max="10" min="0" class="cantidad" type="number" name="cant-b">
+                    <label class="cantidad_label" for="cant-bebidas">CANTIDAD</label>
+                    <input required max="10" min="0" class="cantidad" type="number" name="cant-bebidas">
 
                 </div>
 
@@ -162,7 +165,7 @@
             </div>
             <div
                 class=" col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 p-2 d-flex d-row justify-content-center mx-0 text-center">
-                <h4 class="footer-seguinos text-white my-auto mx-auto">¡SEGUINOS EN NUESTRAS REDES!</h4>
+                <p class="footer-seguinos text-white my-auto mx-auto">¡SEGUINOS EN NUESTRAS REDES!</p>
             </div>
             <div
                 class="col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3 d-flex justify-content-center align-items-center p-3">

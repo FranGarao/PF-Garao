@@ -94,9 +94,6 @@
 
 // media querys
 @media screen and (min-width: 480px) {
-    .label_contact {
-        font-size: 20px;
-    }
 
     .main_contacto {
         min-height: 80vh;
@@ -242,8 +239,6 @@
         display: inline-block;
         width: 340px;
         height: 400px;
-
-
         padding: 10px;
         border-radius: 5px;
         border: 1px solid $borde_select;

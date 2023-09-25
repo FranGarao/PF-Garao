@@ -6,6 +6,12 @@
     border-radius: 5px;
 }
 
+.cantidad_label {
+    @extend .cantidad;
+    width: 80px;
+    text-align: center;
+}
+
 .fondo-pedidos {
     background-color: $fondo;
 }
