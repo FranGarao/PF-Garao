@@ -1,0 +1,20 @@
+@mixin logo ($width, $height, $margin) {
+    width: $width;
+    height: $height;
+    margin: $margin;
+}
+
+#logo {
+    @include logo (70px, auto, 0 20px)
+}
+
+.redes-img:hover {
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+
+.redes-img {
+    width: 50px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}

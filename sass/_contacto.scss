@@ -1,0 +1,150 @@
+.main_contacto {
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+
+
+
+
+    #contactanos {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        background-color: $fondo;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid $borde_select;
+        margin-bottom: 10px;
+
+        .contactanos_div {
+
+            display: flex;
+            flex-direction: row;
+
+            p {
+                margin: 2px 5px;
+            }
+        }
+    }
+}
+
+
+// media querys
+@media screen and (min-width: 480px) {
+
+    .main_contacto {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+
+
+
+        #contactanos {
+            height: 180px;
+            width: 320px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+            .contactanos_div {
+                display: flex;
+                flex-direction: row;
+
+
+                p {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .main_contacto {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+
+
+
+
+
+        #contactanos {
+            height: 190px;
+            width: 320px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+            .contactanos_div {
+                display: flex;
+                flex-direction: row;
+
+
+                p {
+                    font-size: 17px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    #desaparece_contacto {
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+        width: 340px;
+        height: 400px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid $borde_select;
+        background-color: $fondo;
+    }
+
+    .main_contacto {
+        #contactanos {
+
+            height: 200px;
+            width: 350px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+        }
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    #sec_contacto {
+
+        #desaparece_contacto {
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            width: 450px;
+            height: 400px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid $borde_select;
+            background-color: $fondo;
+
+
+            p {
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+}
